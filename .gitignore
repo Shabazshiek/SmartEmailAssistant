@@ -1,0 +1,15 @@
+#ignore the virtual environment folder
+sea/
+.qodo/
+
+#ignore local environment secrets & access tokens
+.env
+gmail_token.json
+credentials.json
+
+#ignore temparory database tracking logs
+PyWhatKit_DB.txt
+
+#ignore Python compiler overhead cache 
+__pycache__/
+*.pyc
